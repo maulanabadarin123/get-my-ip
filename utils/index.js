@@ -8,7 +8,7 @@ export async function fetchIpAddress() {
   
     // Set the required headers for the API request
     const response = await fetch(
-      `https://ipapi.co`,
+      `https://api.bigdatacloud.net/data/client-ip`,
     );
   
     // Parse the response as JSON
